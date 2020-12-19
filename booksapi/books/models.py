@@ -15,7 +15,7 @@ class Book(models.Model):
     def __str__(self):
         return self.name
 
-path = "/Users/deana/Documents/Projects/micropythonapi/bestsellers-with-categories.csv"
+path = "../bestsellers-with-categories.csv"
 
 with open(path) as f:
     reader = csv.reader(f)
