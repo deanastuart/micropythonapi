@@ -5,3 +5,4 @@ include==0.2.2
 lxml==4.6.2
 pytz==2020.4
 sqlparse==0.4.1
+gunicorn==20.0.4
