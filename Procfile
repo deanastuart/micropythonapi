@@ -1,1 +1,1 @@
-web: gunicorn booksapi:application
+web: gunicorn --pythonpath booksapi booksapi.wsgi
